@@ -1,0 +1,38 @@
+{
+    "name": "elijan/payments",
+    "description": "",
+    "authors": [
+        {
+            "name": "MePlus",
+            "email": "elijan.sejic@dealsealer.com.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "paypal/rest-api-sdk-php": "1.3.*",
+        "illuminate/support": "4.2.*",
+        "elijan/paypal-adaptive": "1.*"
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/elijan/paypal-adaptive-laravel4.git"
+
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "Elijan\\Payments": "src/",
+            "Elijan\\Paypal": "vendor/paypal/src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "workbench/elijan/paypal-adaptive/src/",
+            "workbench/elijan/payments/src/"
+        ]
+    },
+    "minimum-stability": "stable"
+}
