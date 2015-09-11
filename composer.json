@@ -11,7 +11,7 @@
         "php": ">=5.4.0",
         "paypal/rest-api-sdk-php": "1.3.*",
         "illuminate/support": "4.2.*",
-        "elijan/paypal-adaptive": "1.*"
+        "elijan/paypal-adaptive": "dev-master@dev"
     },
 
     "repositories": [
@@ -34,5 +34,5 @@
             "workbench/elijan/payments/src/"
         ]
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
