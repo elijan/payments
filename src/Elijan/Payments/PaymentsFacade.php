@@ -1,5 +1,5 @@
 <?php
-namespace Goldtorch\Payments;
+namespace Elijan\Payments;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Goldtorch\Payments;
+namespace Elijan\Payments;
 
 //@TOO create intereface for comon methods
 

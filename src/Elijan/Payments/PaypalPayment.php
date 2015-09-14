@@ -1,4 +1,4 @@
-<?php namespace Goldtorch\Payments;
+<?php namespace Elijan\Payments;
 
 use PayPal\Api\Address;
 use PayPal\Api\Amount;
